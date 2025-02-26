@@ -9,10 +9,10 @@ app.use(cors());
 
 // مسیر اصلی
 app.get("/", (req, res) => {
-  res.send("سرور Express با موفقیت راه‌اندازی شد!");
+  res.send("سرور Express برای G-CHAT- با موفقیت راه‌اندازی شد!");
 });
 
 // اجرای سرور
 app.listen(PORT, () => {
-  console.log(`سرور در حال اجرا روی پورت ${PORT}`);
+  console.log(`سرور G-CHAT- در حال اجرا روی پورت ${PORT}`);
 });
